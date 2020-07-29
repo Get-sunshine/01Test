@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .out{
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+            margin:auto;
+        }
+        .big,.small{
+            display: inline-block;
+            margin: 0 10px;
+            width:50px;
+            height: 25px;
+            background: #cccccc;
+            transition: all .5s;
+            text-align: center;
+            font:12px/25px;
+            cursor: pointer;
+        }
+        .big:hover{
+            transform: scale(1.2);
+        }
+        .small:hover{
+            transform: scale(.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <span class="big">big</span>
+        <span class="small">small</span>
+    </div>
+</body>
+</html>

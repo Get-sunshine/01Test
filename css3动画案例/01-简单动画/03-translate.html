@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .out{
+            width: 600px;
+            height: 600px;
+            border: 1px solid black;
+            margin: auto;
+        }
+        span{
+            display: inline-block;
+            width: 80px;
+            height: 40px;
+            font: 12px/40px '微软雅黑';
+            text-align: center;
+            margin: 10px 10px;
+            transition: all .4s;
+            background: #cccccc;
+            transition: all .4s;
+        }
+        .up:hover{
+            transform: translateY(-5px);
+        }
+        .bottom:hover{
+            transform: translate(0px,5px);
+        }
+        .left:hover{
+            transform: translate(-5px,0px);
+        }
+        .right:hover{
+            transform: translate(5px,0px);
+        }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <span class="up">up</span>
+        <span class="bottom">bottom</span>
+        <span class="left">left</span>
+        <span class="right">right</span>
+    </div>
+</body>
+</html>
