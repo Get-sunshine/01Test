@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 600px;
+            height: 600px;
+            border: 1px solid black;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        span{
+            display: inline-block;
+            width: 80px;
+            height: 30px;
+            background-color: #cccccc;
+            transition: all .8s;
+        }
+        span:nth-child(1):hover{
+            border-radius: 10px;
+        }
+        span:nth-child(2){
+            border-radius: 10px;
+        }
+        span:nth-child(2):hover{
+            border-radius: 0%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span>rect</span>
+        <span>radius</span>
+    </div>
+</body>
+</html>

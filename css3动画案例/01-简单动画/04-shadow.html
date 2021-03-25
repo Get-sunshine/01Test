@@ -1,18 +1,20 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <style>
-        .out{
+        .out {
             width: 600px;
             height: 600px;
             border: 1px solid black;
             margin: auto;
         }
-        span{
+
+        span {
             display: inline-block;
             width: 100px;
             height: 40px;
@@ -23,21 +25,26 @@
             background: #cccccc;
             transition: all .4s;
         }
-        .shadow:hover{
+
+        .shadow:hover {
             box-shadow: 0 0 10px #cccccc;
         }
-        .shadow-inset:hover{
+
+        .shadow-inset:hover {
             box-shadow: inset 0 0 10px 2px white;
         }
-        .shadow-white:hover{
-            box-shadow:inset 0  0 20px white;
+
+        .shadow-white:hover {
+            box-shadow: inset 0 0 20px white;
         }
-        .shadow-big:hover{
+
+        .shadow-big:hover {
             box-shadow: 0 10px 10px -10px #cccccc;
             transform: scale(1.2);
         }
     </style>
 </head>
+
 <body>
     <div class="out">
         <span class="shadow">shadow</span>
@@ -46,4 +53,5 @@
         <span class="shadow-big">shadow-big</span>
     </div>
 </body>
+
 </html>
